@@ -11,12 +11,11 @@ public class TS_Ex15 {
 		Scanner sc = new Scanner(System.in);
 
 		int mile = 0;
-		double km = mile*1.609;
 		System.out.println("마일을 km로 변환하는 프로그램입니다.");
 		System.out.print("마일을 입력하세요 : ");
 		mile = sc.nextInt();
 
-		System.out.println(mile + "마일은 " + km + "km 입니다.");
+		System.out.println(mile + "마일은 " + mile * 1.609 + "km 입니다.");
 
 		sc.close();
 	}
